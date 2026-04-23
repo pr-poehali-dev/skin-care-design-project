@@ -80,7 +80,7 @@ export default function Index() {
         </div>
         <a href="#diagnostic"
           className="hidden md:inline-block font-golos font-light px-5 py-2.5 transition-all duration-300 hover:opacity-80"
-          style={{ border: '1px solid var(--dark)', color: 'var(--dark)', fontSize: '13px', letterSpacing: '0.06em' }}>
+          style={{ border: '1px solid var(--btn)', color: 'var(--btn)', fontSize: '13px', letterSpacing: '0.06em' }}>
           Записаться
         </a>
       </nav>
@@ -117,7 +117,7 @@ export default function Index() {
           <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row gap-4">
             <a href="#diagnostic"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 font-golos font-light transition-all duration-300 hover:opacity-85"
-              style={{ backgroundColor: 'var(--dark)', color: 'var(--cream)', fontSize: '14px', letterSpacing: '0.05em' }}>
+              style={{ backgroundColor: 'var(--btn)', color: 'var(--cream)', fontSize: '14px', letterSpacing: '0.05em' }}>
               Записаться на диагностику
               <Icon name="ArrowRight" size={16} />
             </a>
@@ -333,7 +333,7 @@ export default function Index() {
                 <a href="#diagnostic"
                   className="inline-flex items-center justify-center gap-2 py-4 font-golos font-light transition-all duration-300 hover:opacity-80"
                   style={{
-                    backgroundColor: plan.accent ? 'var(--olive)' : 'var(--dark)',
+                    backgroundColor: plan.accent ? 'var(--btn)' : 'var(--btn)',
                     color: 'var(--cream)',
                     fontSize: '13px',
                     letterSpacing: '0.06em',
@@ -390,7 +390,7 @@ export default function Index() {
             <button
               className="w-full py-4 font-golos font-light transition-all duration-300 hover:opacity-85 flex items-center justify-center gap-2 mt-1"
               style={{
-                backgroundColor: 'var(--dark)',
+                backgroundColor: 'var(--btn)',
                 color: 'var(--cream)',
                 fontSize: '14px',
                 letterSpacing: '0.06em',
